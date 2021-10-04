@@ -1,0 +1,18 @@
+.hero{
+    background-image:url('../../images/m-gschwandtne.jpg');
+    background-size: cover;
+    background-position:center;
+    padding: 4rem 0;
+    position: relative;
+    z-index:9;
+}
+.hero::after{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.376);
+    z-index: -1;
+}

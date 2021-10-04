@@ -1,0 +1,8 @@
+
+.social-icon{
+    color:rgba(127, 255, 212, 0.5);
+    transition:.3s;
+}
+.social-icon:hover{
+    color:aqua;
+}

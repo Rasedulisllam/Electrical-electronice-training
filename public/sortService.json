@@ -1,0 +1,26 @@
+[
+    {
+       "id":0,
+       "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT63dH2K7kNbbdhKRfUXA-0VLPCykHVw1c41Q&usqp=CAU",
+       "name":"Industrial PLC and HMI training",
+       "price":10000
+    },
+    {
+       "id":1,
+       "img":"https://www.ato.com/Content/Images/uploaded/vfd-and-soft-starter.jpg",
+       "name":"Industrial VFD and Softstatar training",
+       "price":8000
+    },
+    {
+       "id":2,
+       "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGW71SuUW2x8CNmTzOFwYTDSsrfGOiVEskPg&usqp=CAU",
+       "name":"Basic Electronics and Electricity",
+       "price":5000
+    },
+    {
+       "id":3,
+       "img":"https://5.imimg.com/data5/TS/IV/IW/SELLER-20287497/star-delta-starter-control-panels-500x500-500x500.jpg",
+       "name":"Star-delta and Single phase motors",
+       "price":5000
+    }
+ ]
