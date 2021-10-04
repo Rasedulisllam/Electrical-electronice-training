@@ -5,6 +5,8 @@ import './Home.css'
 
 const Home = () => {
     const [services,setServices]=useState([])
+
+    // data fetching
     useEffect(()=>{
         fetch('./sortService.json')
             .then(res => res.json())

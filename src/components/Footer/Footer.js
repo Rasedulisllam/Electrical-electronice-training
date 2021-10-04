@@ -15,8 +15,8 @@ const Footer = () => {
                     </Col>
                     <Col md={6} className='text-white'>
                         <ul className='d-flex align-items-center'>
-                            <li className='list-unstyled px-2'>Follow us</li>
-                            <li className='list-unstyled px-2 social-icon' ><i class="fab fa-facebook" aria-hidden="true"></i></li>
+                            <li className='list-unstyled px-2'>Follow us :</li>
+                            <li className='list-unstyled px-2 social-icon'><i class="fab fa-facebook" aria-hidden="true"></i></li>
                             <li className='list-unstyled px-2 social-icon'><i class="fab fa-twitter" aria-hidden="true"></i></li>
                             <li className='list-unstyled px-2 social-icon'><i class="fab fa-youtube" aria-hidden="true"></i></li>
                             <li className='list-unstyled px-2 social-icon'><i class="fab fa-instagram" aria-hidden="true"></i></li>

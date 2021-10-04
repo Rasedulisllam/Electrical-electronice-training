@@ -4,6 +4,7 @@ import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, XAxis, YAxis
 
 const Chart = () => {
 
+// data for chart
     const data = [
         {
           name: 'PLC & HMI',

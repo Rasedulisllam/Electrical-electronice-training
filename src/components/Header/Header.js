@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
+    // navlink unactive and active style
     const navLink={
         textDecoration:'none',
         color:'white'
