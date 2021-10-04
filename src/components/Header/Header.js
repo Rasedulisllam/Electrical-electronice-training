@@ -1,6 +1,7 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -15,10 +16,10 @@ const Header = () => {
                     style={{ maxHeight: '100px',margin:'0 2rem' }}
                     navbarScroll
                 >
-                    <Nav.Link className='text-white'>Home</Nav.Link>
-                    <Nav.Link className='text-white'>About</Nav.Link>
-                    <Nav.Link className='text-white'>Service</Nav.Link>
-                    <Nav.Link className='text-white'>Contact us</Nav.Link>
+                    <Nav.Link className='text-white'><NavLink to='/home'>Home</NavLink></Nav.Link>
+                    <Nav.Link className='text-white'><NavLink to='/about'>About</NavLink></Nav.Link>
+                    <Nav.Link className='text-white'><NavLink to='/service'>Service</NavLink></Nav.Link>
+                    <Nav.Link className='text-white'><NavLink to='/contact'>Contact us</NavLink></Nav.Link>
                     
                 </Nav>
                 <Form className="d-flex">
