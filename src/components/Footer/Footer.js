@@ -1,21 +1,19 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css'
 
 const Footer = () => {
-    const element = <FontAwesomeIcon icon={faArrowRight} />
+    
     return (
         <div className='bg-dark p-4'>
             <Container>
                 <Row>
-                    <Col className="text-white text-start">
+                    <Col md={6} className="text-white text-start">
                        <h2>Electrical and Electronics Training</h2>
                        <p>High Rise Building wiring , Industrial Wiring , Maintenances And Others Industrial Goods Suppliers.</p>
-                       <h4 className='mt-5'>{element} E&#38;E Training</h4>
+                       <h4 className='mt-5'>E&#38;E Training</h4>
                     </Col>
-                    <Col className='text-white'>
+                    <Col md={6} className='text-white'>
                         <ul className='d-flex align-items-center'>
                             <li className='list-unstyled px-2'>Follow us</li>
                             <li className='list-unstyled px-2 social-icon' ><i class="fab fa-facebook" aria-hidden="true"></i></li>

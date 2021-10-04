@@ -40,7 +40,7 @@ const Contact = () => {
                         <h1 className='text-uppercase text-warning'>Contact Info</h1>
                         <p>E&#38;E Training Are High Rise Building wiring , Industrial Wiring , Panel Board Controlling Circuit , Industrial Load Calculation  Distribution , Motor Control Circuit , Electrical Machines Maintenances  Rewinding , Substation , Generator Setup , Maintenances And Others Industrial Goods Suppliers.</p>
                         <div className='d-flex mt-4'>
-                            <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-home" aria-hidden="true"></i></span>
                             <div className='ms-3'>
                                 <h5>E&#38;E Training</h5>
                                 <h5>Gulshan-2</h5>
@@ -48,7 +48,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className='d-flex mt-4'>
-                            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-phone" aria-hidden="true"></i></span>
                             <h5 className='ms-3'>+880150000000</h5>
                         </div>
                     </Col>

@@ -4,10 +4,20 @@ import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+
+    const navLink={
+        textDecoration:'none',
+        color:'white'
+    }
+    const active={
+        fontWeight: "bold",
+        color: "aqua"
+      }
+
     return (
         <div>
             <Navbar bg="dark" expand="lg">
-            <Container fluid>
+            <Container >
                 <Navbar.Brand style={{color:'white'}}>E&#38;E TRAINING</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
@@ -16,10 +26,10 @@ const Header = () => {
                     style={{ maxHeight: '100px',margin:'0 2rem' }}
                     navbarScroll
                 >
-                    <Nav.Link className='text-white'><NavLink to='/home'>Home</NavLink></Nav.Link>
-                    <Nav.Link className='text-white'><NavLink to='/about'>About</NavLink></Nav.Link>
-                    <Nav.Link className='text-white'><NavLink to='/service'>Service</NavLink></Nav.Link>
-                    <Nav.Link className='text-white'><NavLink to='/contact'>Contact us</NavLink></Nav.Link>
+                    <Nav.Link className='text-white'><NavLink style={navLink} activeStyle={active}  to='/home'>Home</NavLink></Nav.Link>
+                    <Nav.Link className='text-white'><NavLink style={navLink} activeStyle={active} to='/about'>About</NavLink></Nav.Link>
+                    <Nav.Link className='text-white'><NavLink style={navLink} activeStyle={active} to='/service'>Service</NavLink></Nav.Link>
+                    <Nav.Link className='text-white'><NavLink style={navLink} activeStyle={active} to='/contact'>Contact us</NavLink></Nav.Link>
                     
                 </Nav>
                 <Form className="d-flex">
